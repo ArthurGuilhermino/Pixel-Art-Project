@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>PixelArt</h1>
+    </header>
+
+    <main>
+        <aside>
+
+            <span class="opition-title">Tamanho:</span>
+            <input type="number" class="input-size" min="14" value="10">
+
+            <span class="opition-title">Cor:</span>
+            <input type="color" class="input-color">
+
+            <span class="opition-title">Cor usadas:</span>
+            <section class="used-colors">
+            </section>
+
+            <button class="button-save">Baixar imagem</button>
+        </aside>
+
+        <section class="canvas">
+
+        </section>
+        <div class="resize"></div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
